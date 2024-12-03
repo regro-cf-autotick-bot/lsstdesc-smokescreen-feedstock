@@ -1,13 +1,13 @@
 {% set name = "smokescreen" %}
-{% set version = "1.0.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: lsstdesc-{{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/smokescreen-{{ version }}.tar.gz
-  sha256: 9e8e97044824ba28675d7893111d1940489b9386e35aaa06f5a006d698be6877
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/smokescreen-{{ version }}.tar.gz
+  sha256: cfa23afc02b1c89b41485f3c686cda21ef715f75e06fd7d6ae4477f8990f74a1
 
 build:
   noarch: python
